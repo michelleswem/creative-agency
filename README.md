@@ -2,9 +2,12 @@
 
 This project is created using Positioning, CSS Grid and Flexbox.
 
-Positioning: Allows you to place items exactly where you want it to be.
-CSS Grid: Allows you to create dynamic layout.
-Flexbox: Allows you to align items.
+- Positioning: Allows you to place items exactly where you want it to be.
+- CSS Grid: Allows you to create dynamic layout.
+- Flexbox: Allows you to align items.
+
+## LIVE PREVIEW
+https://creative-agency-web.netlify.app/
 
 ## Design
 This design Inspiration was gotten from [Brad Traversy](https://twitter.com/traversymedia).
