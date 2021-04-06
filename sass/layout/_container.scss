@@ -1,0 +1,11 @@
+
+.container{
+min-height: 100vh;
+padding: 10rem;
+@media only screen and (max-width:$bp-small) {
+  padding: 6rem; 
+    }
+    @media only screen and (max-width:$bp-smallest) {
+      padding:2rem; 
+        }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Creative Agency</title>
+</head>
+<body>
+<header class="header">
+    <div class="logo">Creative Agency</div>
+    <div class="navigation">
+<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+<label for="navi-toggle" class="navigation__button">
+    <span class="navigation__icon">&nbsp;</span>
+</label>
+    <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+        <ul class="navigation__icon-list">
+            <li class="navigation__icon-item"><a href="https://facebook.com" class="navigation__icon-link">
+            <img src="images/facebook.png"  target="_blank" alt="facebook"class="navigation__icon-img"></a></li>
+           <li class="navigation__icon-item"><a href="https://twitter.com" class="navigation__icon-link">
+               <img src="images/twitter.png"  target="_blank" alt="twitter"class="navigation__icon-img"></a></li>
+            <li class="navigation__icon-item"><a href="https://instagram.com" class="navigation__icon-link">
+             <img src="images/instagram.png"  target="_blank" alt="instagram"class="navigation__icon-img"></a></li>
+                   <li class="navigation__icon-item navigation__icon-item--email"><a href="mailto:you@email.com" class="navigation__icon-link">
+                   <img src="images/email.png"  target="_blank" alt="email"class="navigation__icon-img"></a></li>
+                   </ul>
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+            <li class="navigation__item"><a href="services.html" class="navigation__link">Services</a></li>
+            <li class="navigation__item"><a href="work.html" class="navigation__link">Work</a></li>
+            <li class="navigation__item"><a href="contact.html" class="navigation__link">Contact</a></li>  
+        </ul>
+    </nav>
+    </div>
+</header>
+<main class="container margin-tpl">
+    <div class="text-content">
+    <h1 class="heading-primary">Contact us</h1>
+     <p class="primary-text margin-tps">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iusto molestias accusamus rem nobis est, et laborum harum doloremque nemo non, minima quos totam labore
+    </p>
+    </div>
+    <section class="contact margin-tpm">
+        <div class="contact__contact-form">
+        <form action="#" class="contact__form">
+            <div class="contact__form-groups ">
+                <div class="contact__form-group">
+                    <input type="text" class="contact__input" placeholder="First Name" id="first-Name" required>
+                    <label for="first-Name" class="contact__label">First Name</label>
+                </div>
+                <div class="contact__form-group">
+                    <input type="text" class="contact__input" placeholder="Last Name" id="last-Name" required>
+                    <label for="last-Name" class="contact__label">Last Name</label>
+                </div>
+            </div>
+            <div class="contact__form-groups">
+                <div class="contact__form-group">
+                    <input type="email" class="contact__input" placeholder="Email" id="email" required>
+                    <label for="email" class="contact__label">Email</label>
+                </div>
+                <div class="contact__form-group">
+                    <input type="text" class="contact__input" placeholder="Subject" id="subject" required>
+                    <label for="subject" class="contact__label">Subject</label>
+                </div>
+            </div>
+            <div class="contact__form-groups-2">
+                <div class="contact__form-group-2">
+                <textarea class="contact__input contact__input--text" id="message" placeholder="Message" required></textarea>
+                <label for="message" class="contact__label">Message</label> 
+                </div>
+            </div>
+            <div class="contact__form-groups-2">
+                <div class="contact__form-group-2">
+                <input type="submit" class="contact__input contact__input--btn" value="send" required> 
+                </div>
+            </div> 
+        </form>
+        </div>
+       <div class="contact__info">
+           <div class="contact__info-box">
+               <img src="images/address.png" alt="address-icon" class="contact__icon">
+               <div class="contact__details">
+                   <h4 class="heading-tertiary">Address</h4>
+                   <p class="contact__text">28 Neon Tower, New York City, USA</p>
+               </div>
+           </div>
+           <div class="contact__info-box">
+            <img src="images/email.png" alt="address-icon" class="contact__icon">
+            <div class="contact__details">
+                <h4 class="heading-tertiary">Email</h4>
+                <div class="contact__text">
+                    <a href="mailto:anyone@example.com" class="contact__link">anyone@example.com</a>
+                    <a href="mailto:anyone@example.com" class="contact__link">anyone@example.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact__info-box">
+            <img src="images/call.png" alt="address-icon" class="contact__icon">
+            <div class="contact__details">
+                <h4 class="heading-tertiary">Call</h4>
+                <div class="contact__text">
+                    <a href="tel:+1978555555" class="contact__link">+234 703 687 069</a>
+                    <a href="tel:+1978555555" class="contact__link">+1 978 555 5555 </a>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+</main>
+</body>
+</html>

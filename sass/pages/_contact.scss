@@ -1,0 +1,126 @@
+.contact {
+display: flex;
+@media only screen and (max-width:$bp-largest) {
+    flex-direction: column;
+    }
+&__contact-form {
+background-color:$color-Grey-light-3;
+flex: 0 0 60%;
+margin-right: 4.5rem;
+padding:6rem;
+@media only screen and (max-width:$bp-largest) {
+    margin-right:0;
+    margin-bottom: 5rem;
+    }
+    @media only screen and (max-width:$bp-small) {
+        padding: 3rem;  
+        }
+    }
+&__form-groups {
+display: flex;
+@media only screen and (max-width:$bp-largest) {
+    flex-direction: column;
+    }
+}
+&__form-groups,
+&__form-groups-2 {
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+       }
+}
+    &__form-group {
+        &:not(:last-child) {
+       margin-right: 2rem;
+       @media only screen and (max-width:$bp-largest) {
+        margin-right: 0;
+        }
+           }
+    }
+&__input {
+font-size: 1.6rem;
+font-weight: 300;
+background-color: rgba($color-white, .5);
+font-family: inherit;
+color: inherit;
+border-radius:2px;
+padding: 1.5rem 5rem;
+border: none;
+border-bottom: 3px solid transparent;
+display: block;
+width: 100%;
+transition: all .3s;
+&--btn {
+    background-color:$color-primary-5;
+    color: $color-white;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+&--text {
+height: 15rem;
+resize: none;
+}
+&:focus {
+outline: none;
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+border-bottom: 3px solid $color-primary-5;
+}
+&:focus:invalid {
+border-bottom:3px solid $color-primary-4;  
+}
+
+&::-webkit-input-placeholder {
+ color:$color-Grey-light-5;
+}
+}
+    &__label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 5rem;
+    margin-top: .7rem;
+    display: block;
+    transition: all .3s;
+    }
+    &__info {
+    flex: 1;
+   background-color: $color-Grey-light-3;
+   padding: 6rem;
+   @media only screen and (max-width:$bp-small) {
+   padding: 3rem; 
+    }
+    }
+ &__info-box {
+display: flex;
+ &:not(:last-child) {
+margin-bottom: 4rem;
+ }
+    }
+    &__icon {
+height:2.5rem;
+width: 2rem;
+display: block;
+margin-right: 4rem;
+    }
+ &__text {
+font-size: 1.76rem;
+margin-top: 2rem;
+    }
+
+    &__link {
+     &:link,
+     &:visited {
+         color: $color-primary-1;
+         text-decoration: none;
+         border-bottom: 1px solid $color-primary-6;
+     }
+     &:focus {
+         outline: none;
+     }
+    }
+    &__input:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+    }
+    
+}

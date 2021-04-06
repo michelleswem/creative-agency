@@ -1,0 +1,30 @@
+.main-content {
+display: flex;
+height: 100vh;
+@media only screen and (max-width:$bp-largest) {
+    flex-direction: column;
+     }
+} 
+.side-content {
+    flex: 0 0 60%;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    @media only screen and (max-width:$bp-medium) {
+        padding: 10rem 6rem;
+        }       
+}
+    .img-content {
+        flex: 1;
+        img {
+        @media only screen and (max-width:$bp-largest) {
+        display: none;
+         }
+        width:100%;
+        display: block;
+            }      
+    }
+    
+    

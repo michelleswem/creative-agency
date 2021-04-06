@@ -1,0 +1,20 @@
+@mixin list-style {
+    text-align: center;
+    list-style-type:none;   
+}
+@mixin margin {
+  margin: 1rem;  
+}
+@mixin link-state {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    text-decoration:none;
+}
+
+
+//MEDIA Breakpoint
+$bp-largest:68.75em; //1100px
+$bp-medium:56.25em; //900px
+$bp-small:37.5em; //600px
+$bp-smallest:31.25em; //500px

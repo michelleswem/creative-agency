@@ -1,0 +1,30 @@
+.heading-primary{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.4;
+    &--sub {
+    display: block;
+    line-height: 1.2;  
+    }
+   
+}
+
+.heading-secondary {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: $color-primary-5;
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    color: $color-primary-5;
+   
+}
+
+.primary-text { 
+     font-size: 1.76rem;
+        
+}
+
+
+
